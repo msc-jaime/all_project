@@ -1,6 +1,29 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+/*
+* {
+    border: #263238 solid 2px;
+}
+*/
+
 body {
     background: #263238;
     color: #eceff1;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: #263238 solid 1px;
+}
+
+.texto-principal {
+    color: blue;
+    font-size: 10px;
+}
+
+.clases {
+    font-weight: 700;
 }
