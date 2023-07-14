@@ -1,0 +1,1 @@
+document.getElementById("colors").innerHTML = "<i>Colores</i>";
