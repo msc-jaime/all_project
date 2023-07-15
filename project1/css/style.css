@@ -15,7 +15,7 @@ table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table, th, td, .name-clase {
     border: #263238 solid 1px;
 }
 
