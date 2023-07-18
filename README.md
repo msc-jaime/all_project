@@ -21,6 +21,6 @@
 
 ### Correo entrega de trabajo
 
-Desarrollar diseño en penpot usando una pagina web de referencia, enviar al correo electronico el resultado del proyecto (*.penpot) y adicionar un archivo PDF con minimo dos vistas más la paleta de colores y de fuentes.
+Desarrollar diseño en penpot usando una pagina web de referencia, enviar al correo electronico el resultado del proyecto (*.penpot) y adicionar un archivo PDF con minimo un tablero/board.
 
 - Correo: [msc.jaime@outlook.com](msc.jaime@outlook.com)
