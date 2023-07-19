@@ -10,6 +10,10 @@
 
 - [Color Hunt](https://colorhunt.co/)
 
+### Icons
+
+- [Google icons](https://fonts.google.com/icons)
+
 ### Imagenes free
 
 - [Freepik](https://www.freepik.es/)
