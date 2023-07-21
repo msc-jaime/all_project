@@ -6,6 +6,8 @@
 - [w3schools HTML](https://www.w3schools.com/html/default.asp)
 - [w3schools CSS](https://www.w3schools.com/css/default.asp)
 
+- [Flexbox CSS](https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos)
+
 ### Colors
 
 - [Color Hunt](https://colorhunt.co/)

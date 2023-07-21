@@ -1,57 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
-    box-sizing: border-box;
-    font-size: 18px;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 body {
-    margin: 0px;
-    color: rgb(50, 50, 50);
-    background: #f3fafe;
-    font-family: 'Fira Sans', sans-serif;
+  margin: 0px;
+  color: rgb(50, 50, 50);
+  background: #f3fafe;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
-    text-align: center;
-    border-bottom: gray solid 2px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    margin-top: 60px;
-    font-size: 2rem;
+  text-align: center;
+  border-bottom: gray solid 2px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  font-size: 2rem;
 }
 
 h2 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 h5,
 h6 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 
 td,
 th {
-    border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 th {
-    background-color: cornflowerblue;
-    height: 50px;
-    color: white;
+  background-color: cornflowerblue;
+  height: 50px;
+  color: white;
 }
 
 /*
@@ -60,127 +64,164 @@ tr:hover {
 }
 */
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 td {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 nav {
-    background-color: aquamarine;
-    text-align: center;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
+  background-color: aquamarine;
+  text-align: center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: DodgerBlue;
+}
+
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  height: 100%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.img-r {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 p.center {
-    text-align: center;
-    border: gray solid 1px;
-    margin: 30px auto;
-    width: 200px;
-    /*
+  text-align: center;
+  border: gray solid 1px;
+  margin: 30px auto;
+  width: 200px;
+  /*
     border-color: gray;
     border-style: solid;
     border-width: 1px;
     */
-    padding: 10px;
+  padding: 10px;
 
-    border-radius: 0px 10px 0px 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 0px 10px 0px 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .test-height {
-    background-color: gray;
-    min-height: 10px;
-    padding: 5px;
+  background-color: gray;
+  min-height: 10px;
+  padding: 5px;
 }
 
 .test-width {
-    background: lightgray;
-    max-width: 600px;
-    width: 300px;
+  background: lightgray;
+  max-width: 600px;
+  width: 300px;
 }
 
 .btn {
-    text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 5px;
-    text-align: center;
-    display: inline-block;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
 }
 
 .btn:hover {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .btn-primary {
-    background-color: MediumSeaGreen;
-    color: white;
+  background-color: MediumSeaGreen;
+  color: white;
 }
 
 .btn-primary {
-    background-color: MediumSeaGreen;
-    color: white;
+  background-color: MediumSeaGreen;
+  color: white;
 }
 
 .btn-secondary {
-    background-color: DodgerBlue;
-    color: white;
+  background-color: DodgerBlue;
+  color: white;
 }
 
 .btn-other {
-    background-color: Gray;
-    color: white;
+  background-color: Gray;
+  color: white;
 }
 
 .relative {
-    position: relative;
-    bottom: 30px;
-    left: 40px;
-    background-color: coral;
+  position: relative;
+  bottom: 30px;
+  left: 40px;
+  background-color: coral;
 }
 
 .fixed {
-    position: fixed;
-    background-color: rgba(218, 165, 32, 0.7);
-    padding: 10px;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    bottom: 40px;
-    right: 10px;
-    cursor: pointer;
+  position: fixed;
+  background-color: rgba(218, 165, 32, 0.7);
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  bottom: 40px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .fixed:hover {
-    position: fixed;
-    background-color: rgb(136, 100, 10);
-    color: white;
-    padding: 10px;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    bottom: 40px;
-    right: 10px;
-    cursor: pointer;
+  position: fixed;
+  background-color: rgb(136, 100, 10);
+  color: white;
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  bottom: 40px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .relative1 {
-    position: relative;
-    border: coral solid 1px;
-    height: 100px;
-    overflow: hidden;
+  position: relative;
+  border: coral solid 1px;
+  height: 100px;
+  overflow: hidden;
 }
 
 .absolute1 {
-    position: absolute;
-    bottom: 90px;
-    right: 0px;
-    border: blue solid 1px;
+  position: absolute;
+  bottom: 90px;
+  right: 0px;
+  border: blue solid 1px;
+}
+
+.float-l {
+  float: left;
+  width: 50%;
+}
+
+.float-r {
+  float: right;
+  width: 50%;
 }
